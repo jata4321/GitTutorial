@@ -14,5 +14,6 @@ if __name__ == '__main__':
     print_hi('PyCharm')
     print_hi('Hello World!')
     print('Goodbye World!')
+    print_hi('Welcome GitHub!')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
