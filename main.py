@@ -17,5 +17,6 @@ if __name__ == '__main__':
     print_hi('Welcome GitHub!')
 
 screen_width = 800
+screen_height = 600
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
