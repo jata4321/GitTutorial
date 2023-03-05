@@ -21,3 +21,8 @@ screen_height = 600
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 # Who committed this entry yet
+
+mobile_width = 300
+mobile_height = 400
+
+# this is local branch1 comment line2
