@@ -10,13 +10,12 @@ print('This time is different')
 
 
 class NewCar:
-    def __init__(self, colour,  attr_name=None, attr_value=None, *args, **kwargs):
+    def __init__(self, colour, attr_name=None, attr_value=None, *args, **kwargs):
         self.attr_name = attr_name
         self.attr_val = attr_value
         self.__colour = colour  # objects' hidden attribute
-        self.__dict__.update(args)
+        self.__dict__.update(args)  # not sure if it works since there is no key
         self.__dict__.update(kwargs)
 
     def add_attribute(self):
         pass
-
