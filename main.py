@@ -25,6 +25,25 @@ screen_height = 600
 mobile_width = 300
 mobile_height = 400
 
+
 # this is local branch1 comment line2
 # here comes another line of comment
 # yet another brilliant idea
+
+class Animal:
+    def __init__(self, species: str, kingdom: str):
+        """
+
+        :type kingdom: object
+        """
+        self.kingdom = kingdom
+        self.species = species
+
+    def __str__(self, name ):
+        return f'Animal name {name}, of {self.species} form {self.kingdom}'
+
+
+class Dog(Animal):
+    def __init__(self, species, kingdom, race: str):
+        super().__init__(species, kingdom)
+        self.race = race
